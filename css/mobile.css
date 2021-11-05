@@ -10,7 +10,7 @@
       }
       
       .container {
-        width: 105%;
+        width: 100%;
         padding: 10px 10px;
       }
       
@@ -61,7 +61,7 @@
       
       #section-main-image h1 {
         color: rgba(255, 255, 255, 0.5);
-        font-size: 45px;
+        font-size: 35px;
         margin: 0;
       }
       #section-main-image h3 {
@@ -90,7 +90,9 @@
       
       .product-grid {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(1, 1fr);
       }
       
       .product {
@@ -120,6 +122,9 @@
         
       }
       
+      .contact-form input {
+          width: 90%;
+      }
       .contact-form form {
         margin-left: 100px;
         text-align: left;
